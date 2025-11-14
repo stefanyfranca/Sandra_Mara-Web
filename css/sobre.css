@@ -1,0 +1,117 @@
+/* --- SOBRE --- */
+.sobre {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  color: #4a4a4a;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.foto-sandra {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(156, 13, 98, 0.2);
+}
+
+.texto-intro h1 {
+  color: #9c0d62;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.texto-intro p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* História */
+.historia {
+  margin-top: 50px;
+}
+
+.historia h2 {
+  color: #9c0d62;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.historia p {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 ;
+  line-height: 1.6;
+}
+
+/* Valores */
+.valores {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.valores h2 {
+  color: #9c0d62;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.valores-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.valores-lista article {
+  max-width: 200px;
+}
+
+.valores-lista i {
+  font-size: 40px;
+  color: #9c0d62;
+  margin-bottom: 10px;
+}
+
+.valores-lista h3 {
+  font-size: 20px;
+  color: #9c0d62;
+  margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #fff0fb;
+  color: #9c0d62;
+  padding: 15px 40px;
+  border-top: 2px solid #f2d7e9;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-right a {
+  color: #9c0d62;
+  margin-left: 15px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #b80972;
+}
+
+html {
+  scroll-behavior: smooth;
+}
