@@ -12,7 +12,7 @@ window.onload = function() {
   MostrarFoto();
 
   // Troca automática a cada 5 segundos
-  setInterval(Avancar, 5000);
+  setInterval(Avancar, 8000);
 };
 
 function Voltar() {

@@ -86,32 +86,6 @@
   margin-bottom: 5px;
 }
 
-/* Rodapé */
-footer {
-  background-color: #fff0fb;
-  color: #9c0d62;
-  padding: 15px 40px;
-  border-top: 2px solid #f2d7e9;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer-right a {
-  color: #9c0d62;
-  margin-left: 15px;
-  font-size: 1.5rem;
-  transition: color 0.3s ease;
-}
-
-.footer-right a:hover {
-  color: #b80972;
-}
-
 html {
   scroll-behavior: smooth;
 }
